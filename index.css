@@ -11,24 +11,25 @@
 	font-size: 45px;
 	height: 100%;
 	float: left;
+	width: 70%;
 }
 
 .logo p{
-	line-height:180px;
+	line-height:140px;
 	height: 100%;
 }
 
 .nav{
 	float: right;
-	margin: 24px auto;
+	width: 30%;
 }
 
 .nav ul li{
 	background-color:#252F38;
 	color: #454F58;
-	height: 30px;
+	height: 35px;
 	line-height: 30px;
-	width: 360px;
+	width:100%;
 	padding-left: 5px;
 }
 
@@ -59,7 +60,7 @@
 
 .text{
 	background-color: #ECEADD;
-	width: 700px;
+	width:65%;
 	border-radius:5px ;
 	padding: 20px;
 	float: left;
@@ -142,6 +143,30 @@
 	text-decoration: none;
 }
 
+.quto{
+	height: 100px;
+	margin:5px auto;
+}
+
+.quto1{
+	padding-top: 1%;
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+
+.quto2{
+	font-size: 21px;
+	font-family: "book antiqua";
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 45%;
+	float: right;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
 .button{
 	text-align: center;
 }
@@ -160,7 +185,7 @@
 /*网页侧边栏开始*/
 .sidebar{
 	float: right;
-	width: 32%;
+	width: 30%;
 	padding-top: 15px;
 	color: white;
 }
@@ -201,7 +226,7 @@
 }
 
 .aboutuss img{
-	height:140px;
+	height:160px;
 	width: 130px;
 	float: left;
 }
