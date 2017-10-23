@@ -1,0 +1,227 @@
+/*网页头部开始*/
+.header{
+	margin-top: 20px;
+	background-color: #222B34;
+	height: 200px;
+	padding: 30px 120px;
+}
+
+.logo{
+	color: white;
+	font-size: 45px;
+	height: 100%;
+	float: left;
+}
+
+.logo p{
+	line-height:180px;
+	height: 100%;
+}
+
+.nav{
+	float: right;
+	margin: 24px auto;
+}
+
+.nav ul li{
+	background-color:#252F38;
+	color: #454F58;
+	height: 30px;
+	line-height: 30px;
+	width: 360px;
+	padding-left: 5px;
+}
+
+.nav ul li:hover{
+	background: #2F3943;
+	color: white;
+}
+
+.nav ul li a:hover{
+	background: #2F3943;
+	color: white;
+	text-decoration: none;
+}
+
+.active{
+	background: #2F3943 !important;
+	color: white !important;
+}
+/*网页头部结束*/
+
+/*网页正文开始*/
+/*网页内容开始*/
+.content{
+	margin-bottom: 20px;
+	padding: 20px 120px;
+	font-family: "微软雅黑";
+}
+
+.text{
+	background-color: #ECEADD;
+	width: 700px;
+	border-radius:5px ;
+	padding: 20px;
+	float: left;
+	padding-bottom:0px ;
+}
+
+.contentone,.contentwo,.contenthree{
+	margin-bottom: 30px;
+}
+
+.tittle p{
+	margin: 0px;
+}
+
+.date{
+	display: block;
+	float: left;
+	height: 55px;
+	width: 60px;
+	text-align: center;
+}
+
+.dateup{
+	background-color: #434D56;
+	height: 65%;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	color: white;
+	font-size: 21px;
+	padding-top: 4px;
+}
+
+.datedown{
+	background-color: #1E2128;
+	height: 35%;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: gray;
+	line-height: 100%;
+}
+
+.rtittle{
+	font-size: 30px;
+	padding-left: 90px;
+}
+
+.rtittle a:hover{
+	color: darkgray;
+	text-decoration: none;
+}
+
+.alink{
+	font-size: 14px;
+	color: gray;
+	padding-left: 90px;
+}
+
+.alink a:hover{
+	text-decoration: underline;
+}
+
+.article{
+	padding-bottom: 40px;
+	border-bottom:1px solid gray ;
+	line-height: 27px;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.article a{
+	float: right;
+	font-size: 13px;
+	color: gray;
+	border-bottom: 1px solid darkgray;
+}
+
+.article a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+
+.button{
+	text-align: center;
+}
+
+.button button{
+	background-color: #363F46;
+	color: white;
+	border: 0px;
+}
+
+.button button:hover,.button button:active{
+	background-color:#2D3A43 ;
+	color: white;
+}
+/*网页内容结束*/
+/*网页侧边栏开始*/
+.sidebar{
+	float: right;
+	width: 32%;
+	padding-top: 15px;
+	color: white;
+}
+
+.sidebar ul{
+	margin-top: 15px;
+}
+
+.sidebar ul li{
+	border-bottom: 1px solid gray;
+	height: 28px;
+	font-size: 15px;
+	line-height: 25px;
+	padding-left: 20px;
+}
+
+.aboutus{
+	text-align: left;
+	margin-bottom: 35px;
+}
+
+.line{
+	color: white;
+	font-size: 25px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+}
+
+.aboutuss{
+	border-bottom: 1px solid gray;
+	padding: 8px 5px;
+}
+
+.aboutuss p{
+	font-size: 13px !important;
+	line-height: 20px;
+	padding-left: 144px;
+}
+
+.aboutuss img{
+	height:140px;
+	width: 130px;
+	float: left;
+}
+
+.subscribe{
+	margin-bottom: 30px;
+}
+
+.categorise{
+	margin-bottom: 30px;
+}
+
+.categorise ul li{
+	list-style: inside;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.categorise ul li span{
+	float: right;
+}
+/*网页侧边栏结束*/
+/*网页正文结束*/
