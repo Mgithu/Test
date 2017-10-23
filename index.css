@@ -145,14 +145,12 @@
 
 .quto{
 	height: 100px;
-	margin:5px auto;
 }
 
 .quto1{
 	padding-top: 1%;
 	width: 50%;
 	float: left;
-	height: 100%;
 }
 
 .quto2{
@@ -200,11 +198,9 @@
 	font-size: 15px;
 	line-height: 25px;
 	padding-left: 20px;
-}
-
-.aboutus{
-	text-align: left;
-	margin-bottom: 35px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .line{
@@ -214,20 +210,29 @@
 	padding-bottom: 5px;
 }
 
+.aboutus{
+	text-align: left;
+	margin-bottom: 35px;
+}
+
 .aboutuss{
 	border-bottom: 1px solid gray;
 	padding: 8px 5px;
 }
 
 .aboutuss p{
+	height: 156px;
 	font-size: 13px !important;
 	line-height: 20px;
-	padding-left: 144px;
+	float: right;
+	width: 48%;
+	overflow: hidden;
 }
 
 .aboutuss img{
-	height:160px;
-	width: 130px;
+	height:156px;
+	width: 50%;
+	display: block;
 	float: left;
 }
 
@@ -247,6 +252,12 @@
 
 .categorise ul li span{
 	float: right;
+}
+
+@media only screen and (max-width:1050px) {
+.categorise ul li span{
+	display:none;
+}
 }
 /*网页侧边栏结束*/
 /*网页正文结束*/
